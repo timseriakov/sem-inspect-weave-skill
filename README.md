@@ -5,6 +5,7 @@ Portable Agent Skill that teaches a semantic version control workflow:
 sem -> inspect -> weave
 
 Roles:
+
 - sem: structural truth (entity-level diff/graph/impact)
 - inspect: review prioritization (risk/blast radius/dependents)
 - weave: coordination + merge semantics
@@ -21,6 +22,20 @@ This repository contains a single skill directory:
 - Optional: `gh` (required for `inspect pr`)
 
 ## Install
+
+### Option 1: via Vercel `skills` CLI (`npx skills`)
+
+```bash
+npx skills add timseriakov/sem-inspect-weave-skill --skill sem-inspect-weave
+```
+
+Optional discovery first:
+
+```bash
+npx skills add timseriakov/sem-inspect-weave-skill --list
+```
+
+### Option 2: manual clone/copy
 
 Agent-skill hosts (OpenCode, Codex CLI, Gemini CLI, etc.) typically discover skills under:
 
@@ -52,6 +67,7 @@ Helper scripts are available under:
 - `sem-inspect-weave/scripts/weave-preview-safe`
 
 Safety note:
+
 - never run `weave setup` unless explicitly requested (it mutates repo merge-driver configuration)
 
 ## License
