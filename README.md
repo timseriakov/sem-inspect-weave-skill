@@ -70,6 +70,25 @@ Safety note:
 
 - never run `weave setup` unless explicitly requested (it mutates repo merge-driver configuration)
 
+## Related Projects and Links
+
+Core CLI tools used by this skill:
+
+- sem: https://github.com/ataraxy-labs/sem
+- inspect: https://github.com/ataraxy-labs/inspect
+- weave: https://github.com/ataraxy-labs/weave
+
+Ecosystem and organization links:
+
+- Ataraxy Labs (org): https://github.com/Ataraxy-Labs
+- Ataraxy Labs (site): https://ataraxy-labs.com/
+
+LikeC4 links (relevant for architecture workflows):
+
+- LikeC4 site: https://likec4.dev/
+- LikeC4 repo: https://github.com/likec4/likec4
+- LikeC4 org: https://github.com/likec4
+
 ## License
 
 MIT
