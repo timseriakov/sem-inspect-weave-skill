@@ -83,12 +83,6 @@ Ecosystem and organization links:
 - Ataraxy Labs (org): https://github.com/Ataraxy-Labs
 - Ataraxy Labs (site): https://ataraxy-labs.com/
 
-LikeC4 links (relevant for architecture workflows):
-
-- LikeC4 site: https://likec4.dev/
-- LikeC4 repo: https://github.com/likec4/likec4
-- LikeC4 org: https://github.com/likec4
-
 ## License
 
 MIT
