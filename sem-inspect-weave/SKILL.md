@@ -1,6 +1,6 @@
 ---
 name: sem-inspect-weave
-description: Semantic version control workflow: sem (structural truth) -> inspect (review prioritization) -> weave (coordination + merge semantics).
+description: "Semantic version control workflow: sem (structural truth) -> inspect (review prioritization) -> weave (coordination + merge semantics)."
 ---
 
 # Sem / Inspect / Weave
